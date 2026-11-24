@@ -76,7 +76,7 @@ dependencies = [
     # torchode (Lienen & Günnemann 2022) would offer per-sample adaptive
     # integration in Ch5 NB04 but its torchtyping dependency is incompatible
     # with torch>=2.10, so the notebook uses torchdiffeq instead.
-    "transformers>=4.40,<5",
+    "transformers>=4.40,<6",
     "sentencepiece>=0.2",
     "sentence-transformers>=2.6",
     "einops>=0.7",
